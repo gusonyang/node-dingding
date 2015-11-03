@@ -1,0 +1,19 @@
+{
+  "name": "dingding",
+  "description": "钉钉开放平台Node库",
+  "version": "0.1.0",
+  "main": "index.js",
+  "contributors": [
+    "GusonYang <guson.yang@gmail.com>"
+  ],
+  "keywords": [
+    "dingding",
+    "钉钉"
+  ],
+  "license": "MIT",
+  "repository": "gusonyang/node-dingding",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "lodash": "^3.10.1"
+  }
+}
