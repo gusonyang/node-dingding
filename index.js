@@ -4,5 +4,6 @@ var _ = require('lodash'),
 _.assign(API, require('./lib/api_department'));
 _.assign(API, require('./lib/api_user'));
 _.assign(API, require('./lib/api_message'));
+_.assign(API, require('./lib/api_media'));
 
 module.exports = API;
