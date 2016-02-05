@@ -11,7 +11,7 @@ var media_id = '@lALOB54u8c0CAM0CAA';
 describe('media', function () {
     it('upload', function (done) {
         return api.media_upload(path.join(__dirname, './media/notify.png')).then(function (result) {
-            console.log(result);
+            media_id = result.media_id;
         }).then(done, done);
     });
 });
